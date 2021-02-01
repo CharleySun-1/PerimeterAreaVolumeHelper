@@ -14,29 +14,50 @@ print("Hello, World!")
 
 
 /// Finds the perimeter of a rectangle
-/// - Parameter length: length of rectangle
-/// - Parameter width: width of rectangle
-/// - Returns: area of the rectangle
+/// - Parameter length: the long side of rectangle
+/// - Parameter width: the short side of rectangle
+/// - Returns: Perimeter of the rectangle
 func perimeterOfRectangle(length: Double, width: Double) -> Double {
     
     return 2 * (length + width)
     
 }
+/// Finds the perimeter of the circle
+/// - Parameter radius: the straight line distance to the centre of the circle to its outer edge
+/// - Returns: the perimeter of the cirle
 func perimeterOfCircle(radius: Double) -> Double {
    
     return 2 * radius * Double.pi
     
 }
+/// Finds the perimeter of the parallelogram
+/// - Parameters:
+///   - sideB: one side of the parallelogram
+///   - sideC: the other side of the parallelogram
+/// - Returns: the perimeter of the parallelogram
 func perimeterOfParallelogram(sideB: Double, sideC: Double) -> Double {
    
     return 2 * (sideB + sideC)
     
 }
+/// Finds the perimeter of the trapezoid
+/// - Parameters:
+///   - sideA: the top side
+///   - sideB: the left side
+///   - sideC: the right side
+///   - sideD: the bottom side
+/// - Returns: the perimeter of the trapezoid
 func perimeterOfTrapezoid(sideA: Double, sideB: Double, sideC: Double, sideD: Double) -> Double {
     
     return sideC + sideB + sideA + sideD
     
 }
+/// Finds the perimeter of the triangle
+/// - Parameters:
+///   - sideA: the first side
+///   - sideB: the second side
+///   - sideC: the third side
+/// - Returns: the perimeter of the triangle
 func perimeterOfTriangle(sideA: Double, sideB: Double, sideC: Double) -> Double {
     
     return sideA + sideB + sideC
